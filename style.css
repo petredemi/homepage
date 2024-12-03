@@ -52,24 +52,26 @@ body{
     justify-content: end;
     flex-direction: column;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 10px;
     box-shadow: 3px 3px 5px grey;
     width: 100%;
 }
 .eu{
     margin: auto;
     position: absolute;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     z-index: 1;
     margin-left: 50px;
     color: white;
     text-shadow: 2px 2px 1px black;
+    transform: translateY(25px);
     
 }
 
 .me{
     display: flex;
     flex-direction: column;
+    height: auto;
     margin: 10px;
     margin-left: 5px;
     margin-bottom: 1px;
@@ -84,7 +86,7 @@ body{
     margin-left: 20px;
     margin-bottom: 3px;
     margin: auto;
-    margin-right: 90px;
+    margin-right: 100px;
     float: left;
     scale: 2.1;
     transform: translateY(0px);
@@ -96,7 +98,7 @@ body{
     padding: 10px;
     background-color: white;
     font-size: 1rem;
-    margin-left: 0px;
+    margin-left:0px;
     margin-right: 10px;
     height: auto;
     max-width: 660px;
@@ -105,7 +107,10 @@ body{
     margin-left: 100px;
     border: 1px solid black;
 }
-
+.link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .intro > h3{
     margin: 20px;
 }
@@ -115,8 +120,8 @@ body{
     margin-top: 0px;
 }
 .intro > div > a >img{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     margin-right: 20px;
 }
 
@@ -137,7 +142,7 @@ body{
     margin: 1px;
 }
 .mywork > h2{
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     margin-left: 30px;
     font-size: 2rem;
     color: firebrick;
@@ -170,6 +175,7 @@ body{
     justify-content:space-between;
     background-color: cadetblue;
     border-radius: 90% 0% 0% 0%;
+    margin-top: 10px;
 }
 .contact > img{
     margin-top: 20px;
@@ -226,6 +232,14 @@ footer{
     .content{
         width: 100%;
     }
+    .intro{
+        margin-top: 0px;
+    }
+    .me{
+        margin-top: 0px;
+        padding-bottom: 0px;
+        display: block;
+    }
     #projects{
         grid-template-columns: 1fr 1fr;
     }
@@ -233,19 +247,27 @@ footer{
         max-width: 280px;
     }
     .me > p > img{
-        margin-bottom: 60px;
+        margin-bottom: 10px;
         margin-right: 75px;
         scale: 1.8;
+        transform: translateY(-30px);
     }
     .me > p{
-        max-width: 450px;
+        max-width: 500px;
+        transform: translateY(-30px);
+        margin-bottom: 0px;
+        padding-bottom: 20px;
     }
     .contact > img{
         max-width: 280px;
     }
     .eu{
+        font-size: 3rem;
         position:relative;
-        transform: translateX(240px) translateY(60px);
+        transform: translateX(230px) translateY(50px);
+    }
+    .link{
+        margin-top: 0px;
     }
 
 }
@@ -264,24 +286,26 @@ footer{
     .me > p{
         width: 345px;
         margin-left: 1px;
+        padding-bottom: 20px;
         max-height: 400px;
+        margin: auto;
+        transform:translateY(50px);
     }
     .eu{
-        transform: translateX(0px) translateY(250px);
+        transform: translateX(0px) translateY(280px);
         font-size: 3rem;
-        max-width: 100px;
+        max-width: 80px;
+        font-family:Georgia, 'Times New Roman', Times, serif
     }
     .me > p > img{
         float:none;
-        transform: translateY(-65px) translateX(50px);
+        transform: translateY(-50px) translateX(50px);
         max-height: 200px;
         margin-bottom: 0px;
-
+        margin: auto;
     }
     .contact >img{
         margin: auto;
         margin-top: 20px;
     }
-
-
 }
