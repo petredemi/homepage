@@ -50,11 +50,12 @@ body{
     display: flex;
     align-items: center;
     width: 100%;
-    background-color:rgba(28, 12, 12, 0.998);
     border: 2px solid rgb(26, 18, 18);
-    min-height: 340px;
-    border-radius: 0% 0% 100% 0%;
+    background-color: black;
+    min-height: 300px;
     margin-bottom: 20px;
+    background: linear-gradient(337deg, transparent 380px, #0d0c0c 0);
+
 }
 
 
@@ -188,8 +189,7 @@ body{
 .contact{
     display: flex;
     justify-content:space-between;
-    background-color: rgba(66, 58, 58, 0.539);
-    border-radius: 90% 0% 0% 0%;
+    background: linear-gradient(339deg, transparent 320px, #817575 0);
     margin-top: 10px;
 }
 .contact > img{
