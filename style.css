@@ -189,7 +189,7 @@ body{
 .contact{
     display: flex;
     justify-content:space-between;
-    background: linear-gradient(339deg, transparent 320px, #817575 0);
+    background: linear-gradient(339deg, transparent 340px, #b8aeae 0);
     margin-top: 10px;
 }
 .contact > img{
