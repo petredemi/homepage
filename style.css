@@ -24,14 +24,6 @@
         font-style: normal;
 }
 
-.icons{
-    margin: auto;
-    margin-bottom: 0px;
-}
-.icons > img{
-    height: 38px;
-    width: 38px;
-}
 body{
     display: flex;
     align-items: center;
@@ -39,6 +31,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 .content{
     display: flex;
     justify-content: center;
@@ -55,10 +48,7 @@ body{
     min-height: 300px;
     margin-bottom: 20px;
     background: linear-gradient(337deg, transparent 380px, #0d0c0c 0);
-
 }
-
-
 .intro{
     display: flex;
     justify-content: end;
@@ -156,6 +146,38 @@ body{
 .title > h4{
     margin: 1px;
 }
+.expertise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 400px;
+}
+.expertise > h4{
+    margin: auto;
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+.icons{
+    margin-bottom: 0px;
+    margin: auto;
+}
+.icons > img{
+    height: 30px;
+    width: 30px;
+}
+.certificates{
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.certificates >ul{
+    display: block;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
 .mywork > h2{
     margin-bottom: 10px;
     margin-top: 5px;
